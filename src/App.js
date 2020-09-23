@@ -4,6 +4,12 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Toast from 'react-bootstrap/Toast';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import FormGroup from 'react-bootstrap/FormGroup';
+import FormLabel from 'react-bootstrap/FormLabel';
+import FormControl from 'react-bootstrap/FormControl';
+import FormText from 'react-bootstrap/FormText';
+import FormCheck from 'react-bootstrap/FormCheck';
 
 import './App.css';
 
@@ -23,6 +29,29 @@ const ExampleToast = ({ children }) => {
   );
 };
 
+const ExampleForm = () => (
+  <Form>
+  <FormGroup controlId="formBasicEmail">
+    <FormLabel>Email address</FormLabel>
+    <FormControl type="email" placeholder="Enter email" />
+    <FormText className="text-muted">
+      We'll never share your email with anyone else.
+    </FormText>
+  </FormGroup>
+
+  <FormGroup controlId="formBasicPassword">
+    <FormLabel>Password</FormLabel>
+    <FormControl type="password" placeholder="Password" />
+  </FormGroup>
+  <FormGroup controlId="formBasicCheckbox">
+    <FormCheck type="checkbox" label="Check me out" />
+  </FormGroup>
+  <Button variant="primary" type="submit">
+    Submit
+  </Button>
+</Form>
+);
+
 const App = () => (
   <Container className="p-3">
     <Jumbotron>
@@ -34,6 +63,7 @@ const App = () => (
         </span>
       </ExampleToast>
     </Jumbotron>
+    <ExampleForm/>
   </Container>
 );
 
