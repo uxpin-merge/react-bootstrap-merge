@@ -1,0 +1,101 @@
+{
+  "categorizedComponents": [
+    {
+      "components": [
+        {
+          "documentation": {
+            "examples": []
+          },
+          "info": {
+            "dirPath": "src/Button",
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/Button/Button.js"
+            },
+            "presets": [
+              {
+                "path": "src/Button/presets/0-default.jsx"
+              }
+            ]
+          },
+          "name": "Button",
+          "presets": [
+            {
+              "elements": {
+                "action1": {
+                  "name": "Button",
+                  "props": {
+                    "children": "Sign Up"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "action1"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onClick",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "The content of the button.",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "The size of the button.",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "sm"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "lg"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "If `true`, the button will take up the full width of its parent.",
+              "isRequired": false,
+              "name": "block",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            }
+          ],
+          "wrappers": []
+        }
+      ],
+      "name": "General"
+    }
+  ],
+  "name": "Bootstrap",
+  "vcs": {
+    "branchName": "master",
+    "commitHash": "4c3c4b519a0fe93e28575ccbd27d1c737f76d4a9"
+  }
+}

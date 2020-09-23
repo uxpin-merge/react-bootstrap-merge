@@ -66,3 +66,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+# Package Notes
+
+* sass-loader version: https://stackoverflow.com/questions/58546521/node-sass-and-sass-loader-module-build-failed-typeerror-this-getresolve-is-n. css-loader appears to have the same issue w/webpack v4+.
