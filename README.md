@@ -1,4 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Bootstrap + UXPin Merge
+
+This is a starter design system based on [react-bootstrap](https://github.com/react-bootstrap) that shows how to push Bootstrap components to UXPin Merge. Currently it contains just a handful of react-bootstrap components.
+
+## About UXPin Merge
+
+[Merge](https://uxpin.com/merge) is a revolutionary technology that lets users import (and keep in sync) coded React.js components from GIT repositories to UXPin editor. The imported components are 100% identical to components used by developers during the development process. It means that components are going to look and, function (interactions, data) identical to the real product experienced by the users.
+
+## Using this project
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). `react-bootstrap` and `@uxpin/merge-cli` are added as dependencies. To add this design system to UXPin:
+
+1. [Follow our instructions](https://www.uxpin.com/docs/merge/ci-servers) to create a new design system within the UXPin app using the "import React components" option. Copy the Auth token.
+
+![instructions](https://images.prismic.io/uxpincommunity%2F0b17168b-023d-44b7-8351-6e79b6e17b9b_merge_ci_2.gif?auto=compress,format)
+
+2. Run the following command from your terminal to push this to UXPin within your terminal:
+
+```
+git clone git@github.com:uxpin-merge/react-bootstrap-merge.git
+cd react-bootstrap-merge
+npm install
+uxpin-merge push --token [YOUR UXPIN AUTH TOKEN]
+```
+
+3. Refresh your UXPin Editor browser tab. The design system components should be available.
 
 ## Available Scripts
 
@@ -67,6 +92,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-# Package Notes
+## Package Notes
 
 * sass-loader version: https://stackoverflow.com/questions/58546521/node-sass-and-sass-loader-module-build-failed-typeerror-this-getresolve-is-n. css-loader appears to have the same issue w/webpack v4+.
