@@ -31,24 +31,21 @@ const ExampleToast = ({ children }) => {
 
 const ExampleForm = () => (
   <Form>
-    <FormGroup controlId="formBasicEmail">
-      <FormLabel>Email address</FormLabel>
-      <FormControl type="email" placeholder="Enter email" />
-      <FormText className="text-muted">
-        We'll never share your email with anyone else.
-      </FormText>
-    </FormGroup>
-
-    <FormGroup controlId="formBasicPassword">
-      <FormLabel>Password</FormLabel>
-      <FormControl type="password" placeholder="Password" />
-    </FormGroup>
-    <FormGroup controlId="formBasicCheckbox">
-      <FormCheck type="checkbox" label="Check me out" />
-    </FormGroup>
-    <Button variant="primary" type="submit">
-      Submit
-    </Button>
+  <FormGroup>
+    <FormLabel>
+      Email address
+    </FormLabel>
+    <FormControl
+      type="email"
+      placeholder="Enter email"
+    />
+  </FormGroup>
+  <Button
+    variant="primary"
+    type="submit"
+  >
+    Submit
+  </Button>
 </Form>
 );
 
