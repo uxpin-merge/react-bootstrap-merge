@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 1. [Follow our instructions](https://www.uxpin.com/docs/merge/ci-servers) to create a new design system within the UXPin app using the "import React components" option. Copy the Auth token.
 
-2. Run the commands below from your terminal to push this to UXPin. Substitute `YOUR_UXPIN_AUTH_TOKEN` with the token from the previous step.
+2. Run the commands below from your terminal to push this to UXPin. _Substitute `YOUR_UXPIN_AUTH_TOKEN` with the token from the previous step._
 
 ```
 git clone https://github.com/uxpin-merge/react-bootstrap-merge.git
