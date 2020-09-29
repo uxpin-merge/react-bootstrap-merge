@@ -15,7 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 2. Run the following commands from your terminal to push this to UXPin within your terminal:
 
 ```
-git clone git@github.com:uxpin-merge/react-bootstrap-merge.git
+git clone https://github.com/uxpin-merge/react-bootstrap-merge.git
 cd react-bootstrap-merge
 npm install
 uxpin-merge push --token [YOUR UXPIN AUTH TOKEN]
