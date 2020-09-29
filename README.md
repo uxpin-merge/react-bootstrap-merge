@@ -18,7 +18,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 git clone https://github.com/uxpin-merge/react-bootstrap-merge.git
 cd react-bootstrap-merge
 npm install
-uxpin-merge push --token YOUR_UXPIN_AUTH_TOKEN
+./node_modules/.bin/uxpin-merge push --token YOUR_UXPIN_AUTH_TOKEN
 ```
 
 Note that `npm install` takes a couple of minutes to run.
