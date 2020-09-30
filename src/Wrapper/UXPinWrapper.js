@@ -1,9 +1,9 @@
 import React from "react";
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
-// Uncomment to use sb-admin theme.
-// https://startbootstrap.com/themes/sb-admin-2/
-// import '../sb-admin-2.css';
+// Uncomment to use agency theme.
+// https://startbootstrap.com/themes/agency/
+// import '../theme-agency.css';
 
 export default function UXPinWrapper({ children }) {
   return children;
