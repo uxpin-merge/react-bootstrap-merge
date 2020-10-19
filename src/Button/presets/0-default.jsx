@@ -4,6 +4,6 @@ import Button from "../Button";
 export default (
   <Button
     uxpId="action1">
-    NEW3 - Sign Up
+    NEW4 - Sign Up
   </Button>
 );
