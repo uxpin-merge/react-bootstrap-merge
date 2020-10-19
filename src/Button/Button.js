@@ -4,6 +4,7 @@ import ButtonB from 'react-bootstrap/Button';
 
 
 function Button(props) {
+  console.log("button!")
   return (
     <ButtonB {...props} onClick={props.onClick}>
       {props.children}
