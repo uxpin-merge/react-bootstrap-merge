@@ -31,4 +31,7 @@ Button.propTypes = {
   block: PropTypes.bool,
 };
 
+console.log("Button.propTypes:", Button.propTypes)
+
+
 export { Button as default };
