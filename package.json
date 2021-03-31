@@ -37,7 +37,7 @@
     ]
   },
   "devDependencies": {
-    "@uxpin/merge-cli": "^2.7.0",
+    "@uxpin/merge-cli": "^2.7.3",
     "css-loader": "^3.6.0",
     "sass-loader": "^7.3.1"
   }
