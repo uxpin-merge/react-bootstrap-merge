@@ -4,6 +4,8 @@ import ButtonB from 'react-bootstrap/Button';
 
 
 function Button(props) {
+  console.log("ButtonB.defaultProps:", ButtonB.defaultProps)
+  console.log("ButtonB.propTypes:", ButtonB.propTypes)
   return (
     <ButtonB {...props} onClick={props.onClick}>
       {props.children}
@@ -28,5 +30,8 @@ Button.propTypes = {
    */
   block: PropTypes.bool,
 };
+
+console.log("Button.propTypes:", Button.propTypes)
+
 
 export { Button as default };
